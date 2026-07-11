@@ -1,0 +1,52 @@
+# getascraper/how-to-scrape-messe-frankfurt
+
+> Messe Frankfurt Exhibitor List Scraper is an Apify Actor that extracts exhibitor lists from any Messe Frankfurt trade fair. Free tier available.
+
+## Overview
+- Messe Frankfurt scraper and trade fair exhibitor data extraction API
+- Extracts: company name, address, contact details, hall and stand number, product categories
+- Output formats: JSON, CSV, Excel, XML, RSS
+- Free tier: included
+
+## Key Pages
+- README: https://github.com/getascraper/how-to-scrape-messe-frankfurt/blob/main/README.md
+- Apify Store: https://apify.com/getascraper/messe-frankfurt-exhibitor-directory-scraper
+- Apify Console: https://console.apify.com/actors/getascraper~messe-frankfurt-exhibitor-directory-scraper
+- Source Actor: https://github.com/getascraper/actorstack/tree/main/actors/messe-frankfurt-exhibitor-directory-scraper
+
+## How it works
+1. Choose a Messe Frankfurt fair by its event code, such as AMBIENTE or CHRISTMASWORLD
+2. Optionally narrow the exhibitor list with a search query
+3. Collect every matching exhibitor as one flat row, ready to export
+
+## Target site characteristics
+- Publicly viewable exhibitor directories, no login required
+- Fairs range from a few hundred to several thousand exhibitors each
+- Covers dozens of industries across Messe Frankfurt's global trade fair calendar
+
+## API Usage
+- Node.js SDK: https://docs.apify.com/api/client/js
+- REST API: https://docs.apify.com/api/v2
+- MCP server: https://github.com/apify/apify-mcp-server
+
+## Supported target URLs
+- https://www.messefrankfurt.com/
+- Any Messe Frankfurt trade fair with a public exhibitor directory, such as Ambiente, Christmasworld, and Creativeworld
+
+## Pricing
+- Free tier: included, first 50 results per run
+- Paid: $4.39 per 1,000 exhibitor records
+
+## Output schema (highlights)
+- companyName, companyAddress, companyCountry: exhibitor identity and location
+- companyEmail, companyPhone, companyWebsite: contact details, when published
+- hallStands, productCategories, socialLinks: fair placement and category data
+
+## Use cases
+- Sales teams building exhibitor contact lists for outreach
+- Market researchers tracking exhibitor presence across fairs
+- Sourcing teams filtering exhibitors by product category
+
+## Support
+- GitHub Issues: https://github.com/getascraper/how-to-scrape-messe-frankfurt/issues
+- Apify Console: https://console.apify.com/actors/getascraper~messe-frankfurt-exhibitor-directory-scraper/issues

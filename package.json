@@ -1,0 +1,38 @@
+{
+  "name": "how-to-scrape-messe-frankfurt",
+  "version": "1.0.0",
+  "description": "Scrape exhibitor lists from any Messe Frankfurt trade fair. Get company names, addresses, emails, phone numbers, websites, hall stands, product categories, and contacts. Export to Excel, CSV, or JSON.",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [
+    "apify",
+    "apify-actor",
+    "data-extraction",
+    "lead-generation",
+    "b2b-leads",
+    "trade-show",
+    "event-data",
+    "messe-frankfurt",
+    "exhibitor-data",
+    "exhibitor-list",
+    "trade-fair",
+    "germany",
+    "frankfurt",
+    "ambiente",
+    "christmasworld",
+    "creativeworld",
+    "contact-details",
+    "hall-stand",
+    "product-categories",
+    "sales-leads"
+  ],
+  "author": "Devansh-365",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "apify-client": "^2.12.0",
+    "dotenv": "^16.5.0"
+  }
+}
